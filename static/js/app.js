@@ -86,6 +86,7 @@ function charts(id) {
       marker: {
         size: subject.sample_values,
         color: subject.otu_ids,
+        colorscale: 'Earth'
 
       },
       text: subject.otu_labels
