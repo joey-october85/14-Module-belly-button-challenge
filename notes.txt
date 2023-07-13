@@ -1,3 +1,42 @@
+let filterID = metaData.filter(value => value.id == id)[0];
+id in metadata is number
+names are strings
+in the filter we convert the number to string to compare the values
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality
+strinct equal
+===
+
+
+==
+The equality (==) operator checks whether its two operands are equal, returning a Boolean result. Unlike the strict equality operator, it attempts to convert and compare operands that are of different types.
+
+
+  y: otuIDs.map(object => 'OTU ' + object),
+map numbers to string, it confines them to the 10 sliced items
+
+function optionChanged(id) {
+  charts(id);
+  metaDataInfo(id)
+};
+
+when a change is made to that tag. the function is called and the value is passed
+
+
+
+Equality (==) operator documentation
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality
+strinct equal
+
+
+Gauge Needle Annotation
+https://codepen.io/merillium/pen/KKWMPBe
+
+
+A couple ofyoutube videos I watched for Object.entries and .forEach
+
 How to iterate through a JavaScript object literal
 https://youtu.be/5PCcu3ufXdg
 
@@ -5,3 +44,6 @@ https://youtu.be/5PCcu3ufXdg
 
 3 EASY Ways To Generate HTML with JavaScript for Beginners
 https://www.youtube.com/watch?v=bhHa6AL4aBo
+
+
+joey-october85.github.io
